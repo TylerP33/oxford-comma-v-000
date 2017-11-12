@@ -1,8 +1,8 @@
 def oxford_comma(array)
-
-if
+case array.size
+when 1
   array[0]
-elsif
+when 2
   "#{array[0]} and #{array[1]}"
 
 else
